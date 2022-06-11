@@ -19,7 +19,7 @@
 
 
 
-  <nav class="navbar navbar-expand-md bg-dark">
+  <nav class="navbar navbar-expand-md bg-dark ">
     <div class="container-fluid">
 
 
@@ -97,26 +97,156 @@
 
   </div>
 
+  <br>
 
 
 
-  <h6 align="center">VENTA</h6>
+  <div class="text-center">
+    <h6>VENTA</h6>
+  </div>
 
-  <h1 align="center">VALOR DE TICKET $200</h1>
+  <div class="text-center">
+    <h1>VALOR DE TICKET $200</h1>
+  </div>
+
 
   <div class="container">
 
-    <form action="" method="post">
-      <input type="text" placeholder="Nombre">
-      <input type="text" placeholder="Apellido">
-      <input type="text" placeholder="Correo">
+
+    <form action="#" method="post">
+
+      <div class="row">
+
+        <div class="col-md mb-3">
+
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control">
+
+        </div>
+
+        <div class="col-md mb-3">
+          <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="form-control">
+
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md mb-3">
+
+          <input type="email" name="email" id="email" placeholder="Correo" class="form-control">
+
+
+        </div>
+
+      </div>
+
+
+      <div class="row">
+
+        <div class="col-md mb-3">
+          <label for="cantidad">Cantidad</label>
+          <input type="text" name="cantidad" id="cantidad" placeholder="Cantidad" class="form-control">
+
+        </div>
+
+
+        <div class="col-md mb-3">
+
+          <label for="selector">Categoria</label>
+
+          <select class="custom-select form-control" id="selector">
+            <option selected>Ninguno</option>
+            <option value="1">Estudiantes</option>
+            <option value="2">Trainee</option>
+            <option value="3">Junior</option>
+          </select>
+
+
+        </div>
+
+      </div>
+
+
+      <div class="row">
+
+        <div class="col-md total">
+          Total a pagar: $ <span id="total"></span>
+        </div>
+      </div>
+
+
+      <div class="row">
+
+
+
+        <div class="col-md mb-3">
+
+          <button type="reset" class="btn btn-success">Borrar</button>
+
+        </div>
+
+
+        <div class="col-md mb-3">
+          <button type="button" class="btn btn-success">Resumen</button>
+
+        </div>
+
+
+        <div class="col-md mb-3">
+          <button type="submit" class="btn btn-success">Enviar</button>
+
+        </div>
+
+      </div>
+
+
+
+
 
 
 
     </form>
-
-
   </div>
+
+
+
+
+
+  <nav class="navbar navbar-expand-md justify-content-between mt-5 p-5" style="background-color:rgb(29, 66, 85)">
+
+    
+    
+          
+    
+    
+          
+    
+          
+    
+            
+                
+    <a class="nav-link active text-white my-2 mx-2" href="#">Preguntas Frecuentes</a>
+    <a class="nav-link active text-white my-2 mx-2" href="#">Contactanos</a>
+    <a class="nav-link active text-white my-2 mx-2" href="#">Prensa</a>
+    <a class="nav-link active text-white my-2 mx-2" href="#">Conferencias</a>
+    <a class="nav-link active text-white my-2 mx-2" href="#">Terminos y condiciones</a>
+    <a class="nav-link active text-white my-2 mx-2" href="#">Privacidad</a>
+    <a class="nav-link active text-white my-2 mx-2" href="#">Estudiantes</a>
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+
+
+
 
 
 
