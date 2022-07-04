@@ -147,7 +147,7 @@
             <div class="row">
 
                 <div class="col-md mb-3">
-                    <label for="cantidad">Cantidad</label>
+                    <label for="cant">Cantidad</label>
                     <input type="text" name="cant" id="cant" placeholder="Cantidad" class="form-control">
 
                 </div>
@@ -158,7 +158,7 @@
                     <label for="selector">Categoria</label>
 
                     <select class="custom-select form-control" id="selector">
-                        <option selected>Ninguno</option>
+                        <option selected value="0">Particular</option>
                         <option value="1">Estudiantes</option>
                         <option value="2">Trainee</option>
                         <option value="3">Junior</option>
@@ -193,7 +193,7 @@
 
                 <div class="col-md mb-3">
 
-                    <button type="button" class="btn btn-success" onclick="calcTotal"> Resumen</button>
+                    <button type="button" class="btn btn-success" onclick="calcTotal()"> Resumen</button>
 
                 </div>
 
@@ -219,7 +219,7 @@
 
 
 
-    <nav class="navbar navbar-expand-md justify-content-between mt-5 p-5" style="background-color:rgb(29, 66, 85)">
+    <nav class="navbar navbar-expand-md justify-content-between mt-5 p-4" style="background-color:rgb(29, 66, 85)">
 
 
 
