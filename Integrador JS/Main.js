@@ -1,22 +1,24 @@
-const valorTicket = 200
+const valorTicket=200
 
 function calcTotal() {
 
-    let cant = document.getElementById("cant").value
+    let cant=document.getElementById("cant").value
 
-    let selector = document.getElementById("selector").value
+    let selector=document.getElementById("selector").value
 
     let desc
 
-    if (selector == 1) {
+    if (selector==1) {
         desc = 80
-    } else if (selector == 2) {
+    } else if (selector==2) {
         desc = 50
-
+    }
+    else if (selector==3)  {
+        desc = 15
     }
     else {
 
-        desc = 15
+        desc = 0
     }
 
     let total=cant*valorTicket
@@ -25,8 +27,7 @@ function calcTotal() {
 
 
 
-    document.getElementById("total")
-
-
+  document.getElementById ("total").innerHTML=total
 
 }
+
